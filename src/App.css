@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Righteous&family=Roboto:ital,wght@0,700;1,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Righteous", cursive;
+}
+
+body {
+  background-image: url("./assets/the_rock.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contentText {
+  display: flex;
+  flex-direction: column;
+  max-width: 40em;
+  margin-top: 9rem;
+  gap: 15px;
+  padding: 3rem;
+}
+
+.contentText-button {
+  max-width: 9rem;
+  padding: 12px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(245, 5, 5, 0.651);
+  color: #fff;
+}
+
+.contentText-title {
+  font-size: 3em;
+  letter-spacing: 3px;
+}
+
+.contentText-paragraph {
+  letter-spacing: 1px;
+}
+
+.movie {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  gap: 1.3rem;
+}
+
+.movies {
+  background-color: rgb(19, 18, 18);
+  max-width: 95%;
+  margin: auto;
+  border-radius: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.imageMovie {
+  width: 130px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .movies{
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+}
