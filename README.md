@@ -4,7 +4,7 @@
   <img src="https://raw.githubusercontent.com/DevJoaoPeu/Api-filmes/main/public/Captura%20de%20Tela%20(49).png" width="450" height="auto" alt="Descrição da imagem 1">
 </p>
 
-<h3><a href="https://64bf6148d842f027c9a287db--fascinating-faun-2b85cc.netlify.app/">Link da aplicação.</a></h3>
+<h3><a href="https://api-filmes-dev.netlify.app/">Link da aplicação.</a></h3>
 
 Este é um projeto em React que consome uma API externa de filmes e exibe os resultados na página. Ele utiliza a biblioteca React para criar uma interface amigável onde os usuários podem ver as imagens e os títulos dos filmes.
 
